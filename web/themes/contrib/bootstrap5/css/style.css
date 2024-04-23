@@ -18,6 +18,9 @@ header{
 padding:0 0 20px 0;
 }
 
+#block-bootstrap5-blocklogo{
+  width: 25%;
+}
 #block-bootstrap5-bannieretop img{
 width: 100%;
 }
@@ -92,7 +95,7 @@ display: none;
 }
 
 @media (max-width: 991px) {
-  #block-bootstrap5-logo {
+  #block-bootstrap5-blocklogo {
     width: 100%;
     text-align: center;
   }
