@@ -144,6 +144,9 @@ display: none;
     border-bottom: 1px solid white;
   }
 
+  .marquee-rtl {
+    width: 95%;
+  }
   
 }
 
