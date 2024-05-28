@@ -98,6 +98,49 @@ display: none;
   font-size: 0.8em;
 }
 
+#block-bootstrap5-blockcourstab img{
+  width: 100%;
+  height: auto;
+}
+
+/* Tabs */
+
+
+.ui-widget {
+    font-family: "PT Sans" !important;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-size: 1em;
+}
+.ui-tabs .ui-tabs-nav {
+  margin: 0 0 -2px;
+  padding: 0;
+}
+.ui-tabs .ui-tabs-anchor{
+  border: 1px solid #000!important;
+  border-bottom: none!important;
+  border-bottom: none;
+}
+.ui-tabs .ui-tabs-panel {
+    background: #fff;
+    border :1px solid #000;
+    border-width: 1px 1px 1px 1px!important;
+    display: block;
+    padding: 1em 1.4em;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    height: auto !important;
+    padding-bottom: 0px!important;
+}
+.ui-state-active.ui-state-active{background: #fff!important;border:none!important}
+.ui-state-active.ui-state-active a{color: #000!important}
+.ui-state-default {background: #000!important;border:none!important}
+.ui-state-default a{color: #fff!important}
+
+
 /** RESPONSIVE **/
 @media (min-width: 992px) {
   #navbarSupportedContent  {
@@ -161,10 +204,14 @@ display: none;
   .marquee {
     width: 95%;
   }
-  
+
+  .ui-state-default, .ui-tabs .ui-tabs-nav li.ui-tabs-active, .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    width: 100%;
+  }
+  .ui-tabs .ui-tabs-nav li a {
+    width: 100%;
 }
-
-
+}
 
 
  /** FIN CUSTUM CSS **/
