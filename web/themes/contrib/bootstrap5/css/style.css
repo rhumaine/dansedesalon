@@ -115,8 +115,9 @@ display: none;
 .breadcrumb, #block-bootstrap5-filsdariane a {
   color: #000;
 }
-/* Tabs */
 
+
+/* Tabs */
 
 .ui-widget {
     font-family: "PT Sans" !important;
@@ -152,6 +153,48 @@ display: none;
 .ui-state-default {background: #000!important;border:none!important}
 .ui-state-default a{color: #fff!important}
 
+
+/** CONTACT **/
+
+#edit-vos-coordonnees, #edit-votre-message {
+  padding: 40px 10px 0px;
+  border: 1px solid #fd2e01;
+}
+#edit-vos-coordonnees legend, #edit-votre-message legend {
+  background: #fd2e01 none repeat scroll 0 0!important;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative!important;
+  text-align: center;
+  text-shadow: none;
+  text-transform: uppercase;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border: none;
+  position: absolute!important;
+}
+.webform-submission-contact-form .form-item label{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.webform-submission-contact-form .form-item input, .webform-submission-contact-form .form-item .form-textarea-wrapper{
+  width: 70%;
+  display: inline-block;
+}
+.webform-submission-contact-form #edit-actions{
+  text-align: center;
+}
+
+#edit-actions-submit.form-submit {
+  background: #fd2e01;
+  text-align: center;
+  color: #fff;
+  border:none;
+}
 
 /** RESPONSIVE **/
 @media (min-width: 992px) {

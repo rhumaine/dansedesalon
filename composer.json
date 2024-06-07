@@ -18,12 +18,15 @@
         "composer/installers": "^2.0",
         "drupal/basic": "^3.0@alpha",
         "drupal/bootstrap_layouts": "5.3",
+        "drupal/captcha": "2.0",
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
+        "drupal/easy_breadcrumb": "2.x-dev@dev",
         "drupal/ebt_tabs": "1.4.x-dev@dev",
         "drupal/views_slideshow": "5.0",
-        "drupal/webform": "6.2"
+        "drupal/webform": "6.2",
+        "drush/drush": "^12.5"
     },
     "conflict": {
         "drupal/drupal": "*"
