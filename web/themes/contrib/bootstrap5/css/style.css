@@ -103,6 +103,18 @@ display: none;
   height: auto;
 }
 
+
+#block-bootstrap5-filsdariane {
+  overflow: hidden;
+  zoom: 1;
+  margin: 10px 0 1.5em !important;
+  padding: 5px 5px 5px 10px;
+  font-size: 0.70em;
+  color: #01738d !important;
+}
+.breadcrumb, #block-bootstrap5-filsdariane a {
+  color: #000;
+}
 /* Tabs */
 
 
