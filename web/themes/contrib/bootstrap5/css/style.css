@@ -156,16 +156,16 @@ display: none;
 
 /** CONTACT **/
 
-#edit-vos-coordonnees, #edit-votre-message {
+#edit-vos-coordonnees, #edit-votre-message, .captcha{
   padding: 40px 10px 0px;
   border: 1px solid #fd2e01;
 }
-#edit-vos-coordonnees legend, #edit-votre-message legend {
+
+#edit-vos-coordonnees legend, #edit-votre-message legend, .captcha .captcha__title{
   background: #fd2e01 none repeat scroll 0 0!important;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
-  position: relative!important;
   text-align: center;
   text-shadow: none;
   text-transform: uppercase;
@@ -181,7 +181,7 @@ display: none;
   vertical-align: top;
 }
 
-.webform-submission-contact-form .form-item input, .webform-submission-contact-form .form-item .form-textarea-wrapper{
+.webform-submission-contact-form .form-item input, .webform-submission-contact-form .form-item .form-textarea-wrapper, #edit-captcha-response{
   width: 70%;
   display: inline-block;
 }
@@ -189,11 +189,53 @@ display: none;
   text-align: center;
 }
 
+.captcha .captcha__title{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 42px;
+  line-height: 42px;
+}
+.captcha {
+  position: relative;
+  border-radius: 10px;
+}
+.form-item-captcha-response label.form-required{
+  width: 18%;
+}
+
 #edit-actions-submit.form-submit {
   background: #fd2e01;
   text-align: center;
   color: #fff;
   border:none;
+}
+
+/* BLOC PROF*/
+
+#block-bootstrap5-blocprof1, #block-bootstrap5-blocprof2{
+  margin-bottom:20px;
+}
+
+#block-bootstrap5-blocprof1 .field, #block-bootstrap5-blocprof2 .field{
+  display: flex;
+}
+#block-bootstrap5-blocprof1 .field div:nth-child(1) {
+  width: 68%;
+  padding: 60px;
+}
+
+
+#block-bootstrap5-blocprof2 .field div:nth-child(2) {
+  width: 68%;
+  padding: 60px;
+}
+
+main h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 130%;
+  margin-bottom: 10px;
+  color: #181818;
 }
 
 /** RESPONSIVE **/
