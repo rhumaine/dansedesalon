@@ -154,6 +154,31 @@ display: none;
 .ui-state-default a{color: #fff!important}
 
 
+/* En cas de probleme avec err protocol
+
+.ebt-tab-title {
+  text-align: center ;
+  font-size: 1.5em;
+  color: #000;
+  margin: 10px 0;
+}
+
+.user-logged-in .ui-state-active .ebt-tab-title, .user-logged-in .ui-state-default .ebt-tab-title {
+  text-align: center ;
+  font-size: 1em;
+  color: #000;
+  margin:0;
+}
+
+.user-logged-in .ui-state-default .ebt-tab-title{
+color:#fff
+}
+.user-logged-in .ui-tabs-active .ebt-tab-title{
+color:#000
+}
+
+*/
+
 /** CONTACT **/
 
 #edit-vos-coordonnees, #edit-votre-message, .captcha{
@@ -218,6 +243,7 @@ display: none;
 
 #block-bootstrap5-blocprof1 .field, #block-bootstrap5-blocprof2 .field{
   display: flex;
+  flex-wrap:wrap;
 }
 #block-bootstrap5-blocprof1 .field div:nth-child(1) {
   width: 68%;
@@ -307,7 +333,34 @@ main h2 {
   }
   .ui-tabs .ui-tabs-nav li a {
     width: 100%;
-}
+  }
+
+  #block-bootstrap5-blocprof1 .field div:nth-child(1) {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  #block-bootstrap5-blocprof1 .field div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #block-bootstrap5-blocprof2 .field div:nth-child(2) {
+    width: 100%;
+    padding: 0px;
+  }
+  #block-bootstrap5-blocprof2 .field div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .node--type-page .field--name-body img{
+    width: 100%;
+    height: auto;
+  }
+  
 }
 
 
