@@ -93,11 +93,6 @@ display: none;
 }
 
 
-.pied_page {
-  text-align: center;
-  font-size: 0.8em;
-}
-
 #block-bootstrap5-blockcourstab img{
   width: 100%;
   height: auto;
@@ -263,6 +258,21 @@ main h2 {
   margin-bottom: 10px;
   color: #181818;
 }
+
+
+footer{
+  background: #ececea;
+}
+#block-bootstrap5-coordonnees{
+  color: #000;
+}
+.pied_page {
+  text-align: center;
+  font-size: 0.8em;
+  background: #ececea;
+  color: #000!important;
+}
+
 
 /** RESPONSIVE **/
 @media (min-width: 992px) {
