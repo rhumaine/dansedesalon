@@ -380,7 +380,7 @@ footer{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/dansedesalon/web/sites/default/files/inline-images/background_danse.png');
+  background-image: url('/sites/default/files/inline-images/background_danse.png');
   background-size: cover;
   background-position: center;
   display:block!important;
