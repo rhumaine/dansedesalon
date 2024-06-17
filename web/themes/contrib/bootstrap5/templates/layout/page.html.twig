@@ -49,13 +49,6 @@ set nav_classes = 'navbar navbar-expand-lg' ~
   (b5_navbar_bg_schema != 'none' ? " bg-#{b5_navbar_bg_schema}" : ' ')
 %}
 
-{%
-set footer_classes = ' ' ~
-  (b5_footer_schema != 'none' ? " footer-#{b5_footer_schema}" : ' ') ~
-  (b5_footer_schema != 'none' ? (b5_footer_schema == 'dark' ? ' text-light' : ' text-dark' ) : ' ') ~
-  (b5_footer_bg_schema != 'none' ? " bg-#{b5_footer_bg_schema}" : ' ')
-%}
-
 <header>
   {{ page.header }}
 </header>
@@ -131,7 +124,7 @@ set footer_classes = ' ' ~
 </main>
 
 {% if page.footer %}
-<footer class="mt-auto {{ footer_classes }}">
+<footer class="mt-auto">
   <div class="{{ b5_top_container }}">
     {{ page.footer }}
   </div>
